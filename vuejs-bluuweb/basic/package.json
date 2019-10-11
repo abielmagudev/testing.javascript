@@ -1,0 +1,21 @@
+{
+  "name": "vuejs-bluuweb",
+  "version": "1.0.0",
+  "description": "",
+  "main": "./src/js/index.js",
+  "scripts": {
+    "dev": "webpack --mode development --colores",
+    "devServer": "webpack-dev-server --colores --open",
+    "prod": "webpack --mode production --colors"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "html-webpack-plugin": "^3.2.0",
+    "vue2-hammer": "^2.1.2",
+    "webpack": "^4.41.0",
+    "webpack-cli": "^3.3.9",
+    "webpack-dev-server": "^3.8.2"
+  }
+}

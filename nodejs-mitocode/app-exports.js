@@ -1,0 +1,6 @@
+const im = require('./src/index.js')
+// console.log(im.myHelloVar)
+// console.log(im.sayHello)
+// im.sayHelloClosure()
+console.log(im.hola)
+im.saludar()

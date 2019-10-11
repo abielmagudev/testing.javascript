@@ -1,0 +1,10 @@
+html
+    title='Express and Templates engine PUG'
+    link(href='https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css', rel='stylesheet')
+    body
+        div.container
+            h1=h1_page
+
+            ul.list-group
+                for person in people
+                    li(id=person.id).list-group-item=person.name
